@@ -7,6 +7,212 @@
     <meta name="keywords" content="CV, resume, curriculum vitae, bio" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV Ielyzaveta Shabetnyk</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body></body>
+  <body>
+    <header id="page-header">
+      <h1>Ielyzaveta Shabetnyk</h1>
+      <figure>
+        <img src="./images/CV-photo.jpeg" alt="cv-photo" width="150" />
+        <figcaption>
+          A beginner front-end developer located in Tbilisi, Georgia.
+          <br />Let's craft impactful experiences together!
+        </figcaption>
+      </figure>
+    </header>
+
+    <main id="page-content">
+      <section id="contacts">
+        <h2>Contacts</h2>
+        <address>
+          <ul>
+            <li>
+              <a href="mailto:shabetnick@gmail.com"
+                >E-mail: shabetnick@gmail.com</a
+              >
+            </li>
+            <li><a href="tel:+380123456">Phone: +38068123456</a></li>
+            <li>
+              <a href="www.linkedin.com/in/ielyzaveta-shabetnyk">LinkedIn</a>
+            </li>
+          </ul>
+        </address>
+      </section>
+      <section id="summary">
+        <h2>Quick summary</h2>
+        <details>
+          <summary>Skills</summary>
+          <ul>
+            <li>HTML5;</li>
+            <li>CSS;</li>
+            <li>Git;</li>
+            <li>Github;</li>
+            <li>
+              <em>English</em>: B2; <br /><em>Spanish</em>: B2, <br /><em
+                >Hebrew</em
+              >: A2 <br /><em>Ukrainian</em>: native;
+            </li>
+            <li>Team player;</li>
+            <li>Fast learner.</li>
+          </ul>
+        </details>
+        <details>
+          <summary>Education</summary>
+          <p>
+            <strong>Zaporizhzhia State University</strong> Master's degree,
+            Roman philology (Sep 2009 - Jul 2014)
+          </p>
+        </details>
+      </section>
+
+      <section id="projects">
+        <h2>Frontend projects</h2>
+        <section id="lvivspaces">
+          <h3>LvivSpaces</h3>
+          <img
+            src="./images/lvivspaces-preview.jpg"
+            alt="lvivspaces-preview"
+            width="500"
+          />
+          <p>
+            A coworking space and office rental website is an online platform
+            that allows users to <em>rent offices and coworking spaces</em> for
+            personal and business use. The website provides an interface for
+            navigating, comparing, and booking a space tailored to customer's
+            needs.
+          </p>
+          <a href="https://github.com/lizazp92/LvivSpaces">GitHub</a>
+        </section>
+      </section>
+
+      <section id="experience">
+        <h2>Working experience</h2>
+        <section id="gravilink">
+          <dl>
+            <dt>
+              <strong
+                ><abbr
+                  title="A product based company focused on game development"
+                  >Gravilink</abbr
+                ></strong
+              >
+              (Oct 2022 - Oct 2023)
+            </dt>
+            <dd>
+              <strong>Travel Interpreter and Assistant</strong> (Spanish,
+              English)
+            </dd>
+          </dl>
+          <ol>
+            <li>
+              Assisted the engineering team of 10 in relocation to Mexico:
+              <ul>
+                <li>Consecutive interpretation for employees;</li>
+                <li>
+                  Communication with local banking, businesses and delivery
+                  services;
+                </li>
+                <li>
+                  Managing travel documents (visa run, applying for residency
+                  permit);
+                </li>
+                <li>Managing medical appointments;</li>
+                <li>Managing housing staff;</li>
+              </ul>
+            </li>
+            <li>Website content editing and translating.</li>
+          </ol>
+        </section>
+        <section id="riderra">
+          <dl>
+            <dt>
+              <strong>
+                <abbr title="A transfer company operating worldwide">
+                  Riderra</abbr
+                ></strong
+              >
+              (Nov 2018 - Oct 2022)
+            </dt>
+            <dd><strong>Customer Support</strong> (Spanish, English)</dd>
+          </dl>
+          <ol>
+            <li>
+              Executed daily client support via phone/email/chat with minimal
+              waiting time;
+            </li>
+            <li>Assisted with special booking requests for VIP customers;</li>
+            <li>
+              Found quick solutions for resolving force majeure situations;
+            </li>
+            <li>
+              Monitored complaints and reaching out booking agencies and
+              customers to provide assistance;
+            </li>
+            <li>
+              Conducted business correspondence (e-mail, instant messengers) and
+              online conferences with foreign suppliers and partners;
+            </li>
+            <li>
+              Scheduled and made passes for vendors (business aviation
+              terminals, private company properties, luxury hotels);
+            </li>
+
+            <li>Negotiated prices;</li>
+          </ol>
+        </section>
+
+        <section id="self-employed">
+          <dl>
+            <dt>
+              <strong
+                ><abbr title="Online lessons"> Self-employed</abbr></strong
+              >
+              (May 2014 - Nov 2018)
+            </dt>
+            <dd><strong> English and Spanish Tutor</strong></dd>
+          </dl>
+          <ol>
+            <li>
+              Tutored Spanish and English languages for university and school
+              students;
+            </li>
+            <li>Curriculum planning.</li>
+          </ol>
+        </section>
+      </section>
+    </main>
+    <footer id="page-footer">
+      <section id="contact-form">
+        <fieldset>
+          <legend><h4>Let's talk!</h4></legend>
+          <form action="/submit" method="post">
+            <label for="name">Name:</label>
+            <br />
+            <input type="text" id="name" name="name" required />
+            <br />
+            <label for="email">Email:</label>
+            <br />
+            <input type="email" id="email" name="email" required />
+            <br />
+            <label for="your-question">Your message:</label>
+            <br />
+            <textarea
+              name="question"
+              id="questionarea"
+              cols="55"
+              rows="10"
+            ></textarea>
+            <br />
+            <br />
+            <button type="submit">Submit</button>
+          </form>
+        </fieldset>
+      </section>
+      <section id="copyright">
+        <span>Made with love by Ielyzaveta Shabetnyk © 2024</span>
+        <br />
+        <small><span>Last updated on 02.02.2024</span></small>
+      </section>
+    </footer>
+  </body>
 </html>

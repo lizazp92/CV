@@ -1,0 +1,63 @@
+body {
+  background-image: url(../images/background-pattern.jpg);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+}
+abbr {
+  font-size: 15.5px;
+}
+
+header {
+  background-color: #be6c72;
+  width: 610px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+#page-content {
+  width: 610px;
+  background-color: white;
+  margin-bottom: -10px;
+}
+
+#lvivspaces,
+#self-employed {
+  padding-bottom: 7px;
+  padding-left: 10px;
+  max-width: 580px;
+}
+
+h2 {
+  padding-left: 10px;
+  padding-top: 7px;
+}
+
+#gravilink,
+#riderra,
+#self-employed,
+details {
+  padding-left: 10px;
+}
+
+#projects,
+#experience {
+  background-color: white;
+  width: 610px;
+}
+
+fieldset {
+  max-width: 585px;
+  background-color: white;
+}
+input,
+textarea {
+  background-color: #e6d8cf;
+}
+legend {
+  font-size: 23px;
+}
+
+#copyright {
+  background-color: white;
+  margin-top: 20px;
+  max-width: 610px;
+}
