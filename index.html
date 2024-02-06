@@ -14,7 +14,7 @@
     <header id="page-header">
       <h1>Ielyzaveta Shabetnyk</h1>
       <figure>
-        <img src="./images/CV-photo.jpeg" alt="cv-photo" width="150px" />
+        <img src="./images/CV-photo.jpeg" alt="cv-photo" class="cv-photo" />
         <figcaption>
           A beginner front-end developer located in Tbilisi, Georgia.
           <br />Let's craft impactful experiences together!
@@ -23,58 +23,60 @@
     </header>
 
     <main id="page-content">
-      <section id="contacts">
-        <h2>Contacts</h2>
-        <address>
-          <ul>
-            <li>
-              <a href="mailto:shabetnick@gmail.com"
-                >E-mail: shabetnick@gmail.com</a
-              >
-            </li>
-            <li><a href="tel:+380123456">Phone: +38068123456</a></li>
-            <li>
-              <a href="www.linkedin.com/in/ielyzaveta-shabetnyk">LinkedIn</a>
-            </li>
-          </ul>
-        </address>
-      </section>
-      <section id="summary">
-        <h2>Quick summary</h2>
-        <details>
-          <summary>Skills</summary>
-          <ul>
-            <li>HTML5;</li>
-            <li>CSS;</li>
-            <li>Git;</li>
-            <li>Github;</li>
-            <li>
-              <em>English</em>: B2; <br /><em>Spanish</em>: B2, <br /><em
-                >Hebrew</em
-              >: A2 <br /><em>Ukrainian</em>: native;
-            </li>
-            <li>Team player;</li>
-            <li>Fast learner.</li>
-          </ul>
-        </details>
-        <details>
-          <summary>Education</summary>
-          <p>
-            <strong>Zaporizhzhia State University</strong> Master's degree,
-            Roman philology (Sep 2009 - Jul 2014)
-          </p>
-        </details>
-      </section>
-
-      <section id="projects">
-        <h2>Frontend projects</h2>
+      <div class="section-space">
+        <section id="summary">
+          <h2 class="p-top">Quick summary</h2>
+          <details>
+            <summary>Skills</summary>
+            <ul>
+              <li>HTML5;</li>
+              <li>CSS;</li>
+              <li>Git;</li>
+              <li>Github;</li>
+              <li>
+                <em>English</em>: B2; <br /><em>Spanish</em>: B2, <br /><em
+                  >Hebrew</em
+                >: A2 <br /><em>Ukrainian</em>: native;
+              </li>
+              <li>Team player;</li>
+              <li>Fast learner.</li>
+            </ul>
+          </details>
+          <details>
+            <summary>Education</summary>
+            <p>
+              <strong>Zaporizhzhia State University</strong> Master's degree,
+              Roman philology (Sep 2009 - Jul 2014)
+            </p>
+          </details>
+        </section>
+        <section id="contacts">
+          <h2>Contacts</h2>
+          <address>
+            <ul class="list">
+              <li>
+                <a href="mailto:shabetnick@gmail.com"
+                  >E-mail: shabetnick@gmail.com</a
+                >
+              </li>
+              <li><a href="tel:+380123456">Phone: +38068123456</a></li>
+              <li>
+                <a href="www.linkedin.com/in/ielyzaveta-shabetnyk">LinkedIn</a>
+              </li>
+            </ul>
+          </address>
+        </section>
+      </div>
+      <section id="projects" class="section-space">
+        <h2 class="p-top">Frontend projects</h2>
         <section id="lvivspaces">
           <h3>LvivSpaces</h3>
           <img
             src="./images/lvivspaces-preview.jpg"
             alt="lvivspaces-preview"
-            width="500"
+            class="lvivspaces-preview"
           />
+          <a href="https://github.com/lizazp92/LvivSpaces">GitHub</a>
           <p>
             A coworking space and office rental website is an online platform
             that allows users to <em>rent offices and coworking spaces</em> for
@@ -82,13 +84,12 @@
             navigating, comparing, and booking a space tailored to customer's
             needs.
           </p>
-          <a href="https://github.com/lizazp92/LvivSpaces">GitHub</a>
         </section>
       </section>
 
-      <section id="experience">
-        <h2>Working experience</h2>
-        <section id="gravilink">
+      <section id="experience" class="section-space">
+        <h2 class="p-top">Working experience</h2>
+        <section id="gravilink" class="border-line">
           <dl>
             <dt>
               <strong
@@ -124,7 +125,7 @@
             <li>Website content editing and translating.</li>
           </ol>
         </section>
-        <section id="riderra">
+        <section id="riderra" class="border-line">
           <dl>
             <dt>
               <strong>
@@ -183,14 +184,14 @@
       </section>
     </main>
     <footer id="page-footer">
-      <section id="contact-form">
-        <fieldset>
+      <section id="contact-form" class="section-space">
+        <fieldset class="field-set">
           <legend>Let's talk!</legend>
           <form action="/submit" method="post">
             <label for="name">Name:</label>
-            <br />
+
             <input type="text" id="name" name="name" required />
-            <br />
+
             <label for="email">Email:</label>
             <br />
             <input type="email" id="email" name="email" required />
@@ -204,15 +205,12 @@
               rows="10"
             ></textarea>
             <br />
-            <br />
             <button type="submit">Submit</button>
           </form>
         </fieldset>
       </section>
-      <section id="copyright">
-        <span>Made by Ielyzaveta Shabetnyk © 2024</span>
-        <br />
-        <small><span>Last updated on 02.02.2024</span></small>
+      <section id="copyright" class="section-space">
+        <span><small>Made by Ielyzaveta Shabetnyk © 2024</small></span>
       </section>
     </footer>
   </body>

@@ -3,72 +3,78 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 14px;
 }
-abbr {
-  font-size: 15.5px;
-}
-
 header {
   background-color: #be6c72;
   width: 610px;
   text-align: center;
   padding-bottom: 5px;
   margin: auto;
+  border-radius: 15px;
 }
-#page-content {
-  width: 610px;
+.cv-photo {
+  width: 150px;
+}
+
+.lvivspaces-preview {
+  width: 500px;
+  display: block;
+}
+
+.border-line {
+  border-bottom: 1px solid #be6c72;
+}
+
+.list li {
+  margin-left: -25px;
+}
+
+abbr {
+  font-size: 15.5px;
+}
+
+.p-top {
+  padding-top: 10px;
+}
+
+a {
+  color: rgb(36, 34, 34);
+}
+
+/* To divide sections */
+.section-space {
+  width: 580px;
   background-color: white;
   margin: auto;
+  padding: 0px 15px 10px 15px;
+  margin-top: 15px;
+  border-radius: 15px;
 }
 
-#lvivspaces,
-#self-employed {
-  padding-bottom: 7px;
-  padding-left: 10px;
-  max-width: 580px;
-}
-
-h2 {
-  padding-left: 10px;
-  padding-top: 7px;
-}
-
-#gravilink,
-#riderra,
-#self-employed,
-details {
-  padding-left: 10px;
-}
-
-#projects,
-#experience {
-  background-color: white;
-  width: 610px;
-}
-
-fieldset {
-  max-width: 585px;
-  background-color: white;
-  margin: auto;
-  margin-top: 10px;
-}
+/* Styling to fieldset */
 input,
 textarea {
   background-color: #e6d8cf;
+  display: block;
+}
+fieldset:first-child {
+  padding-top: 15px;
 }
 legend {
-  font-size: 20px;
+  font-size: 26px;
   font-weight: bolder;
+  padding-top: 7px;
+  margin-left: auto;
+  margin-right: auto;
 }
+.field-set {
+  border-color: #be6c72;
+  border-style: dashed;
+}
+
 #copyright {
-  background-color: white;
-  max-width: 370px;
-  margin: auto;
-  margin-top: 10px;
+  max-width: 300px;
+  padding-top: 5px;
+  margin-top: 9px;
   margin-bottom: 15px;
-  padding-top: 10px;
-  padding-bottom: 5px;
   text-align: center;
-}
-a {
-  color: black;
 }
