@@ -16,8 +16,12 @@
       <figure>
         <img src="./images/CV-photo.jpeg" alt="cv-photo" class="cv-photo" />
         <figcaption>
-          A beginner front-end developer located in Tbilisi, Georgia.
-          <br />Let's craft impactful experiences together!
+          <span
+            >A beginner front-end developer located in Tbilisi, Georgia.</span
+          >
+          <span class="break-line">
+            Let's craft impactful experiences together!
+          </span>
         </figcaption>
       </figure>
     </header>
@@ -34,9 +38,10 @@
               <li>Git;</li>
               <li>Github;</li>
               <li>
-                <em>English</em>: B2; <br /><em>Spanish</em>: B2, <br /><em
-                  >Hebrew</em
-                >: A2 <br /><em>Ukrainian</em>: native;
+                <span class="break-line"><em>English</em>: B2;</span
+                ><span class="break-line"><em>Spanish</em>: B2;</span
+                ><span class="break-line"><em>Hebrew</em>: A2;</span
+                ><span class="break-line"><em>Ukrainian</em>: native;</span>
               </li>
               <li>Team player;</li>
               <li>Fast learner.</li>
@@ -80,9 +85,11 @@
           <p>
             A coworking space and office rental website is an online platform
             that allows users to <em>rent offices and coworking spaces</em> for
-            personal and business use. The website provides an interface for
-            navigating, comparing, and booking a space tailored to customer's
-            needs.
+            personal and business use.
+          </p>
+          <p>
+            The website provides an interface for navigating, comparing, and
+            booking a space tailored to customer's needs.
           </p>
         </section>
       </section>
@@ -108,7 +115,7 @@
           <ol>
             <li>
               Assisted the engineering team of 10 in relocation to Mexico:
-              <ul>
+              <ul class="hidden">
                 <li>Consecutive interpretation for employees;</li>
                 <li>
                   Communication with local banking, businesses and delivery
@@ -190,27 +197,33 @@
           <form action="/submit" method="post">
             <label for="name">Name:</label>
 
-            <input type="text" id="name" name="name" required />
+            <input type="text" id="name" name="name" placeholder=" " />
 
             <label for="email">Email:</label>
-            <br />
-            <input type="email" id="email" name="email" required />
-            <br />
+
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder=" "
+              required
+            />
+
             <label for="your-question">Your message:</label>
-            <br />
+
             <textarea
               name="question"
               id="questionarea"
               cols="55"
               rows="10"
             ></textarea>
-            <br />
-            <button type="submit">Submit</button>
+
+            <button type="submit" class="button">Submit</button>
           </form>
         </fieldset>
       </section>
       <section id="copyright" class="section-space">
-        <span><small>Made by Ielyzaveta Shabetnyk © 2024</small></span>
+        <small>Made by Ielyzaveta Shabetnyk © 2024</small>
       </section>
     </footer>
   </body>
