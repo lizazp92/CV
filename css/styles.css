@@ -24,11 +24,15 @@ h2::first-letter {
   font-weight: bolder;
 }
 
-ol li:nth-child(odd):not(.hidden) {
+ol > li:nth-child(odd):not(.first-ul) {
   background-color: rgb(180, 179, 179, 0.5);
 }
-ol li:nth-child(even):not(.hidden) {
+ol > li:nth-child(even):not(.first-ul) {
   background-color: rgba(148, 99, 99, 0.5);
+}
+
+.first-ul li {
+  background-color: rgba(0, 255, 17, 0.5);
 }
 
 .lvivspaces-preview {
@@ -48,8 +52,16 @@ abbr {
   font-size: 15.5px;
 }
 
+abbr:hover {
+  font-size: 18px;
+}
+
 .p-top {
   padding-top: 10px;
+}
+
+.break-line {
+  display: block;
 }
 
 /* Styling for links */
@@ -73,10 +85,6 @@ a:active {
   font-weight: 600;
 }
 
-abbr:hover {
-  font-size: 18px;
-}
-
 /* To divide sections */
 .section-space {
   width: 580px;
@@ -88,6 +96,21 @@ abbr:hover {
 }
 
 /* Styling to fieldset */
+
+.field-set {
+  border-color: #be6c72;
+  border-style: dashed;
+}
+fieldset:first-child {
+  padding-top: 15px;
+}
+legend {
+  font-size: 26px;
+  font-weight: bolder;
+  padding-top: 7px;
+  margin-left: auto;
+  margin-right: auto;
+}
 input,
 textarea {
   background-color: #e6d8cf;
@@ -108,20 +131,11 @@ input:not(:placeholder-shown):invalid {
   border: 2px solid #c15f5f;
 }
 
-.field-set {
-  border-color: #be6c72;
-  border-style: dashed;
+input[type="email"]:focus {
+  border: none;
 }
-fieldset:first-child {
-  padding-top: 15px;
-}
-legend {
-  font-size: 26px;
-  font-weight: bolder;
-  padding-top: 7px;
-  margin-left: auto;
-  margin-right: auto;
-}
+
+/* Submit button in a fieldset*/
 
 .button {
   padding: 5px 15px;
@@ -140,10 +154,6 @@ button:active {
   background-color: #6c3c3d;
   color: white;
   padding: 7px 17px;
-}
-
-.break-line {
-  display: block;
 }
 
 #copyright {
