@@ -24,10 +24,17 @@ h2::first-letter {
   font-weight: bolder;
 }
 
-ol > li:nth-child(odd):not(.first-ul) {
+/* ol > li:nth-child(odd):not(.first-ul) {
   background-color: rgb(180, 179, 179, 0.5);
 }
 ol > li:nth-child(even):not(.first-ul) {
+  background-color: rgba(148, 99, 99, 0.5);
+} */
+
+:not(ol.first-ol) > li:nth-child(odd) {
+  background-color: rgb(180, 179, 179, 0.5);
+}
+:not(ol.first-ol) > li:nth-child(even) {
   background-color: rgba(148, 99, 99, 0.5);
 }
 
