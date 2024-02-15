@@ -3,6 +3,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 14px;
 }
+
 header {
   background-color: #be6c72;
   width: 610px;
@@ -11,6 +12,13 @@ header {
   margin: auto;
   border-radius: 15px;
 }
+
+h1 {
+  font-family: "Poiret One", sans-serif;
+  font-weight: bolder;
+  margin-bottom: 0;
+  font-size: 40px;
+}
 .cv-photo {
   width: 150px;
 }
@@ -18,25 +26,30 @@ header {
   width: 155px;
 }
 
+h2 {
+  font-family: "Handlee", cursive;
+  font-style: normal;
+  font-size: 30px;
+}
 h2::first-letter {
   color: #be6c72;
   font-size: larger;
   font-weight: bolder;
 }
 
-/* ol > li:nth-child(odd):not(.first-ul) {
+ol > li:nth-child(odd):not(.first-ul) {
   background-color: rgb(180, 179, 179, 0.5);
 }
 ol > li:nth-child(even):not(.first-ul) {
   background-color: rgba(148, 99, 99, 0.5);
-} */
+}
 
-:not(ol.first-ol) > li:nth-child(odd) {
+/* :not(ol.first-ol) > li:nth-child(odd) {
   background-color: rgb(180, 179, 179, 0.5);
 }
 :not(ol.first-ol) > li:nth-child(even) {
   background-color: rgba(148, 99, 99, 0.5);
-}
+} */
 
 .first-ul li {
   background-color: rgba(0, 255, 17, 0.5);
@@ -117,6 +130,7 @@ legend {
   padding-top: 7px;
   margin-left: auto;
   margin-right: auto;
+  font-family: "Handlee", cursive;
 }
 input,
 textarea {
@@ -169,4 +183,9 @@ button:active {
   margin-top: 9px;
   margin-bottom: 15px;
   text-align: center;
+}
+
+.fa-solid {
+  color: #4f4f4f;
+  opacity: 0.5;
 }
